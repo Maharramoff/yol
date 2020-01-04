@@ -1,0 +1,19 @@
+---
+last_modified_at: "2020-01-04"
+---
+
+<div class="container">
+    <div class="row page-header">
+        <h1>WEB Developerin Yol Xəritəsi <img src="{{ "/assets/img/spark.svg" | prpend:sid.baseurl }}"></h1>
+        <p>Sizə öz yolunuzu seçməkdə, öyrənməkdə və inkişaf etməkdə kömək edəcək Yol xəritələri, məqalələr və mənbələr</p>
+    </div>
+    <div class="row roadmaps-list">
+        {% for post in site.posts %}
+        {% if post.categories contains "roadmaps" and post.featured == true %}
+        {% include roadmap.html roadmap=post %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+
