@@ -1,6 +1,6 @@
 ---
 title: "Backend Developer" 
-excerpt: "Tezliklə hazır olacaq. Səhifəni izləyin..."
+excerpt: "Addım-addım Backend developer yolu"
 permalink: ./backend
 featured: true
 layout: roadmap
